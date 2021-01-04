@@ -1,0 +1,274 @@
+html, body
+{
+margin: 0;
+padding: 0;
+font-family: source, sans-pro;
+background-color: #ffffff;
+}
+
+main
+{
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* logo header and the images */
+header
+{
+margin: 0;
+padding: 0.5em 0;
+background-color: #040404;
+text-align: center;
+display: block;
+width: 100%;
+
+}
+
+header img
+{
+width: 30px;
+height: 70px;
+float: right;
+padding: 0px 25px 0px 0px; /* top, R, B, L */
+}
+
+/* heading in the header */
+h1
+{
+ color: #C83734;
+ font-size: 1.8em;
+}
+
+
+
+
+/* index page images */
+main img
+{
+display: block; /* center img */
+margin-left: auto; /* center img */
+margin-right: auto; /* center img */
+width: 40%;
+height: 40%;
+padding: 10px;
+
+flex: 1 0 120px;
+  max-width: 250px;
+}
+
+/* input name text from index page */
+form input
+{
+ font-size: 0.8em;
+ border: 2px solid #ddd;
+ border-radius: 50px;
+ padding: 5px 30px;
+}
+
+/* button not sign up */
+.button-login
+{
+  background-color: #040404;
+  color: white;
+  padding: 5px 7px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+  border: 2px solid #ddd;
+}
+/* button not sign up center */
+.button-container
+{
+  display: flex;
+  justify-content: center;
+  margin-left: 8px;
+} /* end index page */
+
+
+/* navigation menu */
+nav
+{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: black;
+position: fixed;
+width: 100%;
+height: 9%;
+overflow: hidden; /* scroll hidden */
+bottom: 0;
+
+}
+/* navigation images smaller */
+nav ul img
+{
+  width: 50px;
+  height: auto;
+  flex: 1 0 120px;
+  max-width: 220px;
+}
+
+nav li
+{
+  display: block;
+  float: left;
+  padding: 30px;
+
+}
+/* end navi */
+
+
+/* menu page content
+about the trip */
+
+.trip-container > form
+{
+display: block;
+margin-left: -90px;
+margin-top: -355px;
+  background-color: grey;
+  width: 100%;
+  height: 20%;
+}
+
+.trip-container input
+{
+  padding: 0 5px 0 -10px; /* top, R, B, L */
+  margin: 15px;
+}
+
+.trip-container label
+{
+  color: black;
+  font-weight: 1em;
+  display: block;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+/* destination input */
+.trip-container .center-input
+{
+  margin-left: 60px;
+}
+
+/* button start. menu page */
+
+.button-start
+{
+ margin-left: 260px;
+}
+
+/* button start decoration */
+.start-trip
+{
+background-color: #040404;
+color: white;
+padding: 5px 7px;
+text-align: center;
+text-decoration: none;
+border-radius: 50px;
+border: 2px solid #ddd;
+}
+/* transport overview menu */
+ h2
+ {
+ margin-left: 0px;
+ margin-top: 170px;
+ border-bottom: 1px solid silver;
+ }
+
+.transport-button > ul
+{
+ list-style: none;
+  padding: 10px 10px 10px 10px;
+  margin: 22px;
+}
+
+/* decoration  transport-button > ul > li > a */
+.transport
+{
+display: block;
+background-color: #040404;
+color: white;
+text-align: center;
+border-radius: 50px;
+border: 2px solid #ddd;
+text-decoration: none;
+
+padding: 5px 18px 5px 18px;
+
+}
+
+/* information page */
+
+.available-button > ul
+{
+ list-style: none;
+  padding: 10px 10px 10px 10px;
+  margin: 22px;
+}
+
+.bus,.train
+{
+display: block;
+background-color: #040404;
+color: white;
+text-align: center;
+border-radius: 50px;
+border: 2px solid #ddd;
+text-decoration: none;
+padding: 5px 18px 5px 18px;
+}
+
+.train
+{
+  background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+/* responsive for iphone */
+@media (max-width: 800px)
+{
+
+/* index page */
+
+    main img
+    {
+    width: 100%;
+    height: 70%;
+    padding: 8px;
+    }
+
+    form
+    {
+      position: absolute;
+      left: 90px;
+      top: 440px;
+    }
+
+    .button-login
+    {
+      position: absolute;
+      left: 100px;
+      top: 480px;
+    } /* end index page */
+
+
+
+}
